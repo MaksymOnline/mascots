@@ -78,11 +78,19 @@ p{
   justify-content: center;
 }
 
-.logo-img{
+.logo h1{
+    font-family: 'gulaxregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: right;
+    max-width: 227px;
     position: relative;
-    top: 364px;
+    top: 300px;
     left: 300px;
 }
+
 
 .header__inner-word{
     position: relative;
@@ -92,11 +100,14 @@ p{
     left: 263px;
 }
 
+.menu{
+    max-height: 150px;
+}
+
 .menu__list{
     display: flex;
-    justify-content: center;
+    justify-items: center;
     margin-top: 50px;
-    margin-left: 162px;
 }
 
 .menu__link{
