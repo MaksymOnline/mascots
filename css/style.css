@@ -111,13 +111,30 @@ p{
 }
 
 .menu__link{
+    position: relative;
     font-family: "Kyiv*Type Serif";
-    margin-right: 15px;
-    font-size: 18px;
+    margin-right: 34px;
+    font-size: 14px;
     line-height: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
     color:#FF0000;
+}
+
+.menu__link:after {
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 1px;
+	background-color: #FF0000;
+	content: "";
+	transition: width 0.3s ease-out;
+}
+
+.menu__link:hover:after,
+.menu__link:focus:after {
+	width: 100%;
 }
 
 .button{
