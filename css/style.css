@@ -76,38 +76,33 @@ p{
 .header__inner{
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .logo h1{
     font-family: 'gulaxregular';
-    font-style: normal;
     font-weight: 400;
     font-size: 64px;
     line-height: 64px;
     text-align: right;
     max-width: 227px;
     position: relative;
-    top: 300px;
+    top: 260px;
     left: 300px;
 }
-
 
 .header__inner-word{
     position: relative;
     max-width: 37px;
     max-height: 226px;
-    top: 477px;
+    top: 450px;
     left: 263px;
 }
 
 .menu{
-    max-height: 150px;
-}
-
-.menu__list{
-    display: flex;
-    justify-items: center;
-    margin-top: 50px;
+    position: relative;
+    top: 30px;
+    right: -109px;
 }
 
 .menu__link{
@@ -151,13 +146,16 @@ p{
     border-radius: 50%;
 }
 
-.image_under-top{
-    display: block;
-    margin: 0 auto;
+.divider1{
+    display: flex;
 }
 
-.image__divider{
-    margin-bottom: 20px;
+.mascot__zero-word{
+    position: relative;
+    top: 145px;
+    right: -410px;
+    max-width: 36px;
+    max-height: 258px;
 }
 
 .mascot__zero{
@@ -166,14 +164,14 @@ p{
 }
 
 .mascot__zero-img{
-    margin-top: 150px;
+    margin-top: 40px;
     margin-bottom: 70px;
 }
 
 .mascot__zero-vertical_line{
     position: relative;
-    top: 354px;
-    right: -66px;
+    top: 237px;
+    right: -66px;   
     border-left: 1px solid;
     height: 215px;
 }
@@ -197,7 +195,7 @@ p{
 
 .mascot__zero-text{
     max-width: 265px;
-    margin-top: 365px;
+    margin-top: 250px;
     margin-left: 87px;
     font-size: 16px;
     font-weight: 400;
@@ -209,15 +207,18 @@ p{
     margin-bottom: 20px;
 }
 
-.mascot__zero-word{
-    position: relative;
-    right: -15px;
-    max-width: 36px;
-    max-height: 258px;
+.mascot__one-title h3{
+    margin: 0px 0px 0px -267px;
+    text-align: center;
+    font-family: "gulaxregular";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
 }
 
 .mascot__one-title h2{
-    margin: 0px 0px 0px 440px;
+    margin: 0px 0px 0px -267px;
+    text-align: center;
     font-family: "gulaxregular";
     font-weight: 400;
     font-size: 70px;
@@ -270,12 +271,22 @@ p{
     text-align: justify;
 }
 
-.image__divider2{
+.divider2{
     margin-left: 856px;
 }
 
+.mascot__two-title h3{
+    margin: 0 0 0 -444px;
+    text-align: center;
+    font-family: "gulaxregular";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+}
+
 .mascot__two-title h2{
-    margin: 0 0 0 385px;
+    margin: 0 0 0 -444px;
+    text-align: center;
     font-family: "gulaxregular";
     font-weight: 400;
     font-size: 70px;
@@ -327,8 +338,18 @@ p{
     margin-bottom: 15px;
 }
 
+.mascot__three-title h3{
+    margin: 0 0 0 127px;
+    text-align: center;
+    font-family: "gulaxregular";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+}
+
 .mascot__three-title h2{
-    margin: 0 0 0 648px;
+    margin: 0 0 0 127px;
+    text-align: center;
     font-family: "gulaxregular";
     font-weight: 400;
     font-size: 70px;
@@ -376,25 +397,34 @@ p{
     text-align: justify;
 }
 
-.image__divider3{
-    margin-left: 1100px;
+.divider3{
+    margin-left: 1000px;
     margin-bottom: 100px;
 }
 
 .mascot__four{
     display: flex;
-    justify-content: center;
     margin-bottom: 100px;
 }
 
 .mascot__four-title{
-    display: flex;
-    align-self: center;
-    margin-right: -200px;
+    transform: rotate(270deg);
+}
+
+.mascot__four-title h3{
+    position: relative;
+    left: 60px;
+    top: 465px;
+    font-family: "gulaxregular";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
 }
 
 .mascot__four-title h2{
-    transform: rotate(270deg);
+    position: relative;
+    left: -95px;
+    top: 403px;
     font-family: "gulaxregular";
     font-weight: 400;
     font-size: 70px;
@@ -454,13 +484,23 @@ p{
 }
 
 .mascot__five-title{
-    display: flex;
-    align-self: center;
-    margin-right: -155px;
+    transform: rotate(270deg);
+}
+
+.mascot__five-title h3{
+    position: relative;
+    left: 104px;
+    top: 235px;
+    font-family: "gulaxregular";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
 }
 
 .mascot__five-title h2{
-    transform: rotate(270deg);
+    position: relative;
+    left: 6px;
+    top: 162px;
     font-family: "gulaxregular";
     max-height: 254px;
     font-weight: 400;
@@ -507,13 +547,13 @@ p{
     margin-bottom: 15px;
 }
 
-.image__divider4{
+.divider4{
     display: block;
     margin: 0 auto;
     margin-bottom: 25px;
 }
 
-.image__divider5{
+.divider5{
     display: block;
     margin: 0 auto;
     margin-bottom: 100px;
@@ -544,7 +584,7 @@ p{
 .bottom__link1{
     font-family: "gulaxregular";
     font-weight: 400;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 32px;
     color: #FF0000;
 }
@@ -555,3 +595,11 @@ p{
     font-size: 16px;
     line-height: 19px;
 }
+
+.footer__image{
+    max-width: 100%;
+}
+
+/* @media (max-width: 1220px){
+
+} */
